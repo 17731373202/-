@@ -1,0 +1,10 @@
+由于伟大的城墙，不能使用官网命令：
+curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64，所以我通过一些手段将这个可执行文件下了下来。
+安装前需求：KVM或者VirtualBox 或者docker
+
+
+安装开始：
+1.安装docker
+yum install docker -y
+
+2.minikube --vm-driver=none start  
